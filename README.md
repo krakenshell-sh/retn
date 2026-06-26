@@ -1,6 +1,6 @@
 # retn — Terminal Spaced Repetition Engine
 
-![](picture/retn.jpeg}
+![](picture/retn.jpeg)
 
 A minimal, keyboard-driven flashcard app for the terminal, built with C++20,
 SQLite3, and [FTXUI](https://github.com/ArthurSonzogni/FTXUI).
