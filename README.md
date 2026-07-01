@@ -158,7 +158,7 @@ reappear after many days; cards rated **Again** reappear in 1 minute.
 
 | Field       | Meaning                                                       |
 |-------------|---------------------------------------------------------------|
-| **Focus**   | Active filter. "All Decks" means no filter is set               |
+| **Focus**   | Active filter. "All Decks" means no filter is set             |
 | **Due Now** | Cards ready for review right now                              |
 | **Next 7d** | Total cards due within the next 7 days (inclusive of Due Now) |
 
@@ -214,7 +214,7 @@ Press `:` then type `add --interactive` and press `Enter`.
 ├────────────────────────────────────────────────────────────────────────────┤
 │  Question :                                                                │
 │ ┌──────────────────────────────────────────────────────────────────────┐   │
-│ │ Explain the difference between mitosis and meiosis_                   │   │
+│ │ Explain the difference between mitosis and meiosis_                  │   │
 │ └──────────────────────────────────────────────────────────────────────┘   │
 │  Answer   :                                                                │
 │ ┌──────────────────────────────────────────────────────────────────────┐   │
@@ -224,7 +224,7 @@ Press `:` then type `add --interactive` and press `Enter`.
 │ └──────────────────────────────────────────────────────────────────────┘   │
 │  Tags     :                                                                │
 │ ┌──────────────────────────────────────────────────────────────────────┐   │
-│ │ biology cell-division final-exam_                                     │   │
+│ │ biology cell-division final-exam_                                    │   │
 │ └──────────────────────────────────────────────────────────────────────┘   │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -233,9 +233,9 @@ Form controls:
 
 | Key         | Action                       |
 |-------------|------------------------------|
-| `Tab`       | Move to next field            |
-| `Shift+Tab` | Move to previous field        |
-| `Enter`     | New line (Answer field only)  |
+| `Tab`       | Move to next field           |
+| `Shift+Tab` | Move to previous field       |
+| `Enter`     | New line (Answer field only) |
 | `Ctrl+D`    | **Save the card**            |
 | `Esc`       | Cancel, return to Dashboard  |
 
@@ -255,7 +255,7 @@ Form controls:
 │                                                                            │
 │  Question:                                                                 │
 │                                                                            │
-│  Find the first derivative of f(x) = 3x³ − 2x² + 5x − 1                     │
+│  Find the first derivative of f(x) = 3x³ − 2x² + 5x − 1                    │
 │                                                                            │
 ├────────────────────────────────────────────────────────────────────────────┤
 │  [Space] Show Answer                     [Esc] Main Menu   [:] Command     │
@@ -271,7 +271,7 @@ Read the question, try to recall the answer, then press `Space`.
 │  REVIEWING: #math  (Card 3 of 8)                                           │
 ├────────────────────────────────────────────────────────────────────────────┤
 │  Question:                                                                 │
-│  Find the first derivative of f(x) = 3x³ − 2x² + 5x − 1                     │
+│  Find the first derivative of f(x) = 3x³ − 2x² + 5x − 1                    │
 ├────────────────────────────────────────────────────────────────────────────┤
 │                                                                            │
 │  Answer:                                                                   │
@@ -291,8 +291,8 @@ The time shown in parentheses is the **estimated next interval** if you pick tha
 |-----|-----------|-------------------------------------------------------|
 | `1` | **Again** | Completely forgot, or answered incorrectly            |
 | `2` | **Hard**  | Remembered, but it took a long time or felt uncertain |
-| `3` | **Good**  | Recalled with normal effort — use this when in doubt   |
-| `4` | **Easy**  | Recalled instantly without any effort; felt trivial    |
+| `3` | **Good**  | Recalled with normal effort — use this when in doubt  |
+| `4` | **Easy**  | Recalled instantly without any effort; felt trivial   |
 
 > **Tip:** Don't be too generous with **Easy** — reserve it for cards that feel
 > genuinely effortless. Overusing Easy reduces long-term retention.
@@ -369,10 +369,10 @@ executing anything.
 |--------------------------|------------------------------------------|
 | `add "Q" "A"`            | Add a card inline                        |
 | `add "Q" "A" --tag name` | Add a card with one tag                  |
-| `add --interactive`      | Open the interactive three-field form     |
-| `delete <id>`            | Delete a card by ID (shows confirmation)  |
-| `filter <tag>`           | Set the study filter to a tag              |
-| `filter all`             | Clear the filter, show all decks           |
+| `add --interactive`      | Open the interactive three-field form    |
+| `delete <id>`            | Delete a card by ID (shows confirmation) |
+| `filter <tag>`           | Set the study filter to a tag            |
+| `filter all`             | Clear the filter, show all decks         |
 | `help`                   | Show the in-app key binding reference    |
 
 ### Realistic examples
@@ -393,14 +393,14 @@ add --interactive
 
 | Key       | Action                             |
 |-----------|------------------------------------|
-| `Space`   | Start review (with current filter)  |
+| `Space`   | Start review (with current filter) |
 | `j` / `↓` | Move tag selection down            |
 | `k` / `↑` | Move tag selection up              |
-| `1` … `9` | Jump to tag N and set filter        |
-| `Enter`   | Confirm selected tag as filter       |
-| `0`       | Clear filter → All Decks            |
+| `1` … `9` | Jump to tag N and set filter       |
+| `Enter`   | Confirm selected tag as filter     |
+| `0`       | Clear filter → All Decks           |
 | `:`       | Open Command Bar                   |
-| `q`       | Quit (with confirmation)            |
+| `q`       | Quit (with confirmation)           |
 
 ### Review — Question screen
 
@@ -426,9 +426,9 @@ add --interactive
 
 | Key         | Action                       |
 |-------------|------------------------------|
-| `Tab`       | Next field                    |
-| `Shift+Tab` | Previous field                |
-| `Enter`     | New line (Answer field)       |
+| `Tab`       | Next field                   |
+| `Shift+Tab` | Previous field               |
+| `Enter`     | New line (Answer field)      |
 | `Ctrl+D`    | Save and return to Dashboard |
 | `Esc`       | Cancel                       |
 
@@ -476,7 +476,7 @@ retn implements the FSRS v5 scheduler
 | Symbol                    | Meaning                                                     |
 |---------------------------|-------------------------------------------------------------|
 | **S** (Stability)         | Days until retrievability drops to 90%                      |
-| **D** (Difficulty)          | 1 (easy) to 10 (hard); adjusted each review                 |
+| **D** (Difficulty)        | 1 (easy) to 10 (hard); adjusted each review                 |
 | **R(t)** (Retrievability) | `exp(ln(0.9) × t / S)` — probability of recall after t days |
 
 **New card scheduling** (aligned with Py-FSRS reference):
@@ -485,12 +485,12 @@ retn implements the FSRS v5 scheduler
 |--------|----------|----------------------------------------|
 | Again  | Learning | + 1 minute                             |
 | Hard   | Learning | + 10 minutes                           |
-| Good   | Review   | + 1 day (fixed)                         |
+| Good   | Review   | + 1 day (fixed)                        |
 | Easy   | Review   | + S₀ days (~15 d with default weights) |
 
 **Review card scheduling:**
 
-| Rating             | Effect                                                          |
+| Rating             | Effect                                                         |
 |--------------------|----------------------------------------------------------------|
 | Again              | Forgetting formula resets stability; Relearning state, +10 min |
 | Hard / Good / Easy | Recall formula grows stability; next interval ≈ new S          |
